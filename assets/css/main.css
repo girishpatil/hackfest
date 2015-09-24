@@ -1,0 +1,287 @@
+body{
+    font-family: "open sans" "open-sans";
+    font-size: 17px;
+    color: #333;
+}
+*{
+    box-sizing:border-box;
+}
+a{
+    text-decoration: none;
+}
+i{
+    font-family: fontawesome;
+    text-decoration: none;
+    font-style: normal;
+    margin: 2px 5px;
+    font-size: 90%;
+    font-weight: 200;
+}
+.clear{
+    clear: both;
+    float: none;
+}
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+h2{
+    font-size:25px;
+    font-weight: 400; 
+}
+ul,li{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+.error{
+    font-size: 14px;
+}
+.red{
+    color: red;
+}
+.blug{
+    color:#32cdd7;
+}
+.bg-blug{
+    background-color: #32cdd7;
+}
+.a-cen{
+    text-align: center;
+}
+.a-lft{
+    text-align: left;
+}
+.a-rgt{
+    text-align: right;
+}
+.pop{
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 90%
+}
+
+
+
+#container{
+    width: 100%;
+    min-width: 800px;
+    margin: 0 auto;
+}
+.container-wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#navig{
+    width: 20%;
+    position: relative;
+    float: left;
+}
+.cap{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+
+/*PROFILE*/
+.about{
+    text-align: center;
+}
+.profile-details .widget{
+    display: inline-block;
+    width: 100%;
+}
+.pn{
+    color: #222;
+    float: left;
+}
+.pc{
+    color: red;
+    float: right;
+}
+/*PROFILE END*/
+.prof-img{
+    width: 150px;
+    height: 150px;
+    margin: 5px auto;
+}
+.prof-img > img{
+    border-radius: 100%;
+    box-shadow: 0 0 1px 1px #888
+}
+.widget {
+    margin: 10px auto;
+}
+.pro{
+    width: 100%;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.field{
+    display: inline-block;
+    width: 100%;
+    clear: both;
+    float: none;
+    font-size: 16px;
+}
+.field > input{
+    width: 100%;
+    padding: 10px;
+    border:1px solid #d9d9d9;
+    background-color: #fff;
+    margin: 5px 0;
+}
+.widget > .field > input[type="checkbox"]{
+    opacity: 0;
+}
+.field > input[type="checkbox"]{
+    float: left;
+    margin: 10px;
+}
+.field > label{
+    float: left;
+    height: 20px;
+    overflow: hidden;
+    margin-top: 5px;
+    padding-left: 35px;
+}
+
+
+.nav-links > ul > li{
+    display: block;
+    border-top: 1px solid #e9e9e9
+}
+.nav-links > ul > li > a{
+    display: block;
+    padding: 15px 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #222;
+}
+.nav-links > ul > li > a:hover{
+    background-color: #f9f9f9
+}
+.nav-links > ul > li > .active{
+    font-weight: 800;
+}
+.nav-links .pop{
+    float: right;
+}
+input[type="checkbox"]{
+    border: initial;
+    /*opacity: 0;*/
+    float: left;
+    left: 0;
+    position: absolute;
+   
+    -webkit-appearance: checkbox;
+}
+.field input + label{
+     background: url('../img/ticktick.png');
+     background-position: 0px 0px;
+     background-size: 20px;
+     background-repeat: no-repeat;
+}
+
+.field input[type="checkbox"]:checked + label{
+    background-position: 0 -20px;
+}
+
+
+
+
+/*TOP START */
+
+#content{
+    width: 79%;
+    float: right;
+    box-shadow: -3px 0px 1px .1px #e9e9e9;
+}
+.top{
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    position: relative;
+}
+.filter{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+
+
+
+
+/*table starts here*/
+
+table{
+    text-transform: capitalize;
+    text-align: left;
+    color: #555;
+}
+th{
+    text-transform: capitalize;
+}
+table tr{
+    border-bottom: 1px solid #d9d9d9;
+}
+td,th{
+    padding: 20px 10px;
+}
+
+
+
+
+
+/*progress bar hack*/
+progress{
+     width: 100%;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    height:10px;
+    border: 0;
+}
+progress::-webkit-progress-bar{
+    width: 100%;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    height:10px;
+    border: 0;
+}
+progress::-webkit-progress-value{
+    background-color: #e74c3c;
+    height:10px;
+    border-radius: 10px;
+}
+progress::-moz-progress-bar{
+    width: 100%;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    height:10px;
+    border: 0;
+}
+progress::-moz-progress-bar{
+    background-color: #e74c3c;
+    height:10px;
+    border-radius: 10px;
+}
+
+
+
+
+#frm{
+    max-width: 400px;
+    margin: 0 auto;
+}
+#frm input[type="submit"]{
+    background-color: #4fc1e9;
+    color: #fff;
+    font-weight: 800
+
+}
